@@ -1,0 +1,185 @@
+/*HEADER */
+html, body { overflow-x: hidden; } 
+
+body{
+	font-family: 'Raleway', cursive;
+	color: #444444;
+}
+header{
+	background-image: url('img/header2.png');
+	width: 100%;
+	height: 600px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: inherit;
+}
+
+h1{
+	color: white;
+	font-size: 150px;
+	text-align: center;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+h2{
+	color: white;
+	font-size: 60px;
+	text-align: center;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+h3{
+	color: white;
+	font-size: 2rem;
+	margin-bottom: 20px;
+	text-align: center;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+.overlay{
+	background-color: rgba(0, 0, 000, 0.7);
+	height: 600px;
+}
+.btn-outline-warning{
+	width: 250px;
+	font-size: 35px;
+	color: white;
+	border: 3px solid #ffc60b;
+	margin: 20px;
+	border-radius: 0px;
+	padding: 1px;
+}
+/*AVNTAGE */
+.lineAvantage{
+	margin: auto;
+}
+.avantage{
+	flex-direction: column;
+	text-align: center;
+}
+.avantage img{
+	margin: auto;
+	width: 120px;
+	padding: 5px;
+}
+.avantage h2{
+	color: #44444499;
+}
+.avantage p{
+	color: #444444;
+}
+
+
+
+/*PRESENTTION*/
+.sectionPitch{
+ background-color: #ff8b00;
+}
+.explication{
+	font-size: 1.5rem;
+	line-height: 3rem;
+}
+
+
+/*Atlier*/
+.container-fluid{
+	padding: 0;
+}
+#cntAtelier{
+	background-image: url(img/atelier.jpg);
+	background-size: cover;
+}
+#cntTable{
+	background-image: url(img/table.jpg);
+	background-size: cover;
+	display: flex;
+	justify-content: end;
+	background-position: center;
+	background-color: rgba(0,0,0,0.3);
+}
+p.pAtelierTable{
+	margin-top: 0;
+	margin-bottom: 1rem;
+	padding: 1rem;
+	font-size: 1.5rem;
+	text-align: center;
+	font-weight: bold;
+}
+p.pAtelier2Table{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 1rem;
+	padding: 1rem;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+div.atelierDiv {
+	width: 50%;
+	padding: 1rem;
+}
+div.tableDiv {
+	width: 50%;
+	padding: 1rem;
+	background-color: rgba(0,0,0,0.3);
+}
+div.atelierDiv.TableDiv{
+	background-color: rgba(0,0,0,0.3);
+}
+em{
+	font-family: "Gloria Hallelujah", sans serif;
+	font-weight: bold;
+	font-size: 2.5rem;
+}
+.atlBtnP{
+	text-align: center;
+}
+button.btnAtelierTable {
+	border: 2px solid #ffc60b;
+	padding: 1rem;
+	background-color: #444444;
+	color: #ffc60b;
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+button.btnAtelierTable:hover{
+	background-color: #ffc60b;
+	border: 2px solid #ffc60b ;
+	color: white;
+}
+.pTable{
+	color: white
+}
+/* FOOTER */
+footer {
+	background-color: #444444;
+}
+.colIcone {
+	display: flex;
+	height: 60px;
+	margin: auto;
+}
+form input, form button {
+	border: 1px solid #ffc60b;
+}
+.btn-form{
+	background-color: #444444;
+}
+.btn-form:hover{
+	background-color: #ffc60b;
+}
+.icone {
+	margin: 25px;
+	width: 40px;
+	margin: 10px;
+}
+.m-auto {
+	padding: 0;
+	color: white;
+}
+.btn-form{
+	color: white;
+}
+.btn-form:hover{
+	color: #444444;
+}
+
+
